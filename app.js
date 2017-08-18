@@ -1,4 +1,4 @@
-console.log("starting app");
+
 
 // third pary packages
 const _ = require ('lodash');
@@ -14,7 +14,7 @@ const notes = require('./notes.js');
 
 
 
-console.log(`argv:`,argv);
+
 
 
 var command = argv._[0];

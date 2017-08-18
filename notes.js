@@ -1,5 +1,5 @@
 
-console.log("starting notes");
+
 
 const fs = require ('fs');
 
@@ -43,7 +43,7 @@ var addNote = (title, body) => {
 };
 
 var getAll = ()=>{
-return fetchNotes ();
+return fetchNotes ()
 
 }
 
@@ -94,19 +94,6 @@ var logNote = (note) => {
   console.log (`Body: ${note.body}`)
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 module.exports ={
     addNote,
